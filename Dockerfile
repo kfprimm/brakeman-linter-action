@@ -1,4 +1,4 @@
-FROM ruby:2.6.5-alpine
+FROM ruby:3.2.2-alpine
 
 LABEL "com.github.actions.name"="Brakeman linter"
 LABEL "com.github.actions.description"="A GitHub Action that lints your Ruby code with Brakeman!"
